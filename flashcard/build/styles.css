@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=JetBrains+Mono');
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+
+.title {
+  padding-top: 40px;
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Handlee', cursive;
+  color: darkslateblue;
+  text-shadow: 2px 2px 4px #cbb4b4;
+}
+
+.content {
+  position: relative;
+  left: 25%;
+  width: 50%;
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+  border: 3mm ridge rgb(50 98 220 / 60%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vocabulary {
+  display: flex;
+  align-items: center;
+}
+
+.word {
+  padding-right: 10px;
+}
+.definition {
+  margin-top: 0;
+}
+
+.example-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+}
+
+.button:hover {
+  background-color: cornflowerblue;
+}
+
+.button:active {
+  background-color: cornflowerblue;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+.icon-button {
+  border: 0;
+  padding: 0;
+  background: white;
+}
+
+.fa-star {
+  color: darkgray;
+  padding: 5px;
+  /* Added by Jeff Chen */
+  width: 3ex;
+}
+
+/* Added by Jeff Chen */
+h2.word {
+  padding-left: 0.2ex;
+}
+
+.example_sentence {
+  display: inline-block;
+  margin: 0.6em auto auto 0.5em ;
+  font-weight: bold;
+  color:rgb(141, 0, 249)
+}
+
+
+.title-icon-button, .title-icon-button-disabled {
+  text-align: center;
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+  margin: 10px 10px 10px 10px;
+  font-size: 0.4em;
+  cursor: pointer;
+  /* text-align: center; */
+  /* text-decoration: none; */
+  /* outline: none; */
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 3px #999;
+}
+
+.title-icon-button {
+  background-color: rgb(7, 133, 135);
+  color: rgb(255, 255, 255);
+  /* font-weight: bold; */
+  font-style: italic;
+}
+
+.title-icon-button-disabled {
+  background-color: rgb(0, 221, 255);
+  color: rgb(255, 106, 0);
+  font-weight: bolder;
+}
+
+
+.title-icon-button .fa-star, .title-icon-button-disabled .fa-star {
+  color: darkgray;
+  padding-right: 0.2ex;
+  /* Added by Jeff Chen */
+  width: 1.5ex;
+}
+
+.title .title-icon-button, .title .title-icon-button-disabled {
+  font-family: 'JetBrains Mono';
+}
+
+.pos-Noun {
+  color: blue;
+}
+
+.pos-Adjective {
+  color: rgb(62, 154, 0);
+}
+
+.pos-Verb {
+  color: red;
+}
+
+.pos-Adverb {
+  color: purple;
+}
